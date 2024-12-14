@@ -2,7 +2,8 @@ const character = "#";
 const count = 8;
 const rows = [];
 let inverted = false;
-//
+//Quando 'inverted' for true, a pirâmide será gerada de cabeça para baixo. Em portugês|In portuguese
+//When 'inverted' is true, the pyramid will be generated upside down. Em Inglês|In English
 
 function padRow(rowNumber, rowCount) {
   return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
